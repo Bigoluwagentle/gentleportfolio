@@ -19,9 +19,7 @@ function Project() {
         <section>
             <nav className="project-header">
                 <h1>Projects</h1>
-                <a href="#contact">
-                    <h6>CONTACT ME</h6>
-                </a>
+                <a href="#contact"><h6>CONTACT ME</h6></a>
             </nav>
             <aside className="projects-grid">
                 <motion.aside

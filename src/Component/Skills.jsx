@@ -5,11 +5,11 @@ function Skills() {
     <div className="skills">
         <section>
             <nav>
-                <h1>HTML</h1>
+                <h1>HTML5</h1>
                 <p>A year+ experience</p>
             </nav>
             <nav>
-                <h1>CSS</h1>
+                <h1>CSS3</h1>
                 <p>A year+ experience</p>
             </nav>
             <nav>
@@ -29,7 +29,7 @@ function Skills() {
                 <p>A year+ experience</p>
             </nav>
             <nav>
-                <h1>Node.js</h1>
+                <h1>NodeJs</h1>
                 <p>A year+ experience</p>
             </nav>
             <nav>
@@ -37,7 +37,7 @@ function Skills() {
                 <p>A year+ experience</p>
             </nav>
             <nav>
-                <h1>Express.js</h1>
+                <h1>ExpressJs</h1>
                 <p>A year+ experience</p>
             </nav>
         </section>

@@ -15,7 +15,16 @@ function Footer() {
 
         const data = await response.json();
         setResult(data.success ? "Success!" : "Error");
-  };
+    };
+
+    function addUrl(url){
+        const a = document.createElement("a");
+        a.href = url;
+        a.target = "_blank";
+        a.click();
+        document.querySelector("body").appendChild(a);
+        document.querySelector("body").removeChild(a);
+    }
   return (
     <div className="footer" id="contact">
         <section>
@@ -26,9 +35,9 @@ function Footer() {
                         <p>I would love to hear about your project and how I could help. Please fill in the form and I'll get back to you as soon as possible.</p>
                     </aside>
                     <form onSubmit={onSubmit}>
-                        <input type="text" placeholder="NAME" />
-                        <input type="email" placeholder="EMAIL"/>
-                        <textarea placeholder="MESSAGE" rows="4"></textarea>
+                        <input type="text" name="name" placeholder="NAME" />
+                        <input type="email" name="email" placeholder="EMAIL"/>
+                        <textarea placeholder="MESSAGE" name="message" rows="4"></textarea>
                         <nav className="form-submit">
                             <button type="submit">SEND MESSAGE</button>
                         </nav>
@@ -36,11 +45,11 @@ function Footer() {
                     </form>
                 </aside>
                 <nav className="footer-nav">
-                    <gentle>Gentcode</gentle>
+                    <gentle>Gentlethecoder</gentle>
                     <div className="social-links">
-                        <i className="fa-brands fa-github"></i>
-                        <i className="fa-brands fa-whatsapp"></i>
-                        <i className="fa-brands fa-twitter"></i>
+                        <i className="fa-brands fa-github" onClick={() => addUrl("https://github.com/Bigoluwagentle")}></i>
+                        <i className="fa-brands fa-whatsapp" onClick={() => addUrl("https://wa.me/7060503032")}></i>
+                        <i className="fa-brands fa-twitter" onClick={() => addUrl("https://x.com/bigoluwagentle")}></i>
                     </div>
                 </nav>
             </section>
@@ -51,16 +60,3 @@ function Footer() {
 
 export default Footer;
 
-
-
-
-//   return (
-//     <form onSubmit={onSubmit}>
-//       <input type="text" name="name" required/>
-//       <input type="email" name="email" required/>
-//       <textarea name="message" required></textarea>
-//       <button type="submit">Submit</button>
-//       <p>{result}</p>
-//     </form>
-//   );
-// }
