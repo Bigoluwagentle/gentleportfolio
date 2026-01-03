@@ -14,7 +14,7 @@ function Header() {
   return (
     <div className="app">
         <header>
-            <gentle>Gentlethecoder</gentle>
+            <gentle>Gentlethedeveloper</gentle>
             <div>
                 <i className="fa-brands fa-github" onClick={() => addUrl("https://github.com/Bigoluwagentle")}></i>
                 <i className="fa-brands fa-whatsapp" onClick={() => addUrl("https://wa.me/7060503032")}></i>

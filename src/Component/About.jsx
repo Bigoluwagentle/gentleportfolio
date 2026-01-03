@@ -7,7 +7,7 @@ function About() {
         <section>
             <nav>
                 <h2>Nice to meet you!</h2>
-                <h2>I'm <span>Gentle the Coder.</span></h2>
+                <h2>I'm <span>Gentle the Developer.</span></h2>
                 <p>I'm a results driven software engineer with a forward thinking mindset and a strong commitment to excellence. 
                 I believe success is built on clarity, discipline, and continuous growth.
                 My focus is on building efficient, high performance solutions using modern technologies and smart design principles.
