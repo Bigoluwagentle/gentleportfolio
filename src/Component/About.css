@@ -72,6 +72,31 @@
                     }
                 }
             }
+            > div {
+                display: flex;
+                gap: 16px;
+                align-items: center;
+
+                i {
+                    width: 44px;
+                    height: 44px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    border: 1px solid var(--border-color);
+                    border-radius: 50%;
+                    font-size: 18px;
+                    cursor: pointer;
+                    transition: all 0.3s ease;
+                    color: var(--text-secondary);
+
+                    &:hover {
+                        border-color: var(--accent-color);
+                        color: var(--accent-color);
+                        transform: translateY(-2px);
+                    }
+                }
+            }
         }
 
         .image-container {

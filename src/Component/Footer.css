@@ -102,8 +102,10 @@
                 border-top: 1px solid var(--border-color);
 
                 gentle {
-                    font-family: 'Playfair Display', serif;
+                    font-family: "Orbitron", sans-serif;
+                    font-optical-sizing: auto;
                     font-weight: 700;
+                    font-style: normal;
                     font-size: 28px;
                     letter-spacing: 1px;
                     background: linear-gradient(135deg, var(--text-primary) 0%, var(--accent-color) 100%);

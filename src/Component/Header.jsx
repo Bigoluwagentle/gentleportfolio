@@ -14,7 +14,12 @@ function Header() {
   return (
     <div className="app">
         <header>
-            <gentle>Gentlethedeveloper</gentle>
+            <gentle>GentleTheDeveloper</gentle>
+            <aside>
+                <a href="#about"><h6>About Me</h6></a>
+                <a href="#skills"><h6>My Skills</h6></a>
+                <a href="#project"><h6>My Project</h6></a>
+            </aside>
             <div>
                 <i className="fa-brands fa-github" onClick={() => addUrl("https://github.com/Bigoluwagentle")}></i>
                 <i className="fa-brands fa-whatsapp" onClick={() => addUrl("https://wa.me/7060503032")}></i>

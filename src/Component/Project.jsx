@@ -16,7 +16,7 @@ function Project() {
     }
   return (
     <div className="project">
-        <section>
+        <section id="project">
             <nav className="project-header">
                 <h1>Projects</h1>
                 <a href="#contact"><h6>CONTACT ME</h6></a>

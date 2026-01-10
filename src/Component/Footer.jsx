@@ -45,7 +45,7 @@ function Footer() {
                     </form>
                 </aside>
                 <nav className="footer-nav">
-                    <gentle>Gentlethedeveloper</gentle>
+                    <gentle>GentleTheDeveloper</gentle>
                     <div className="social-links">
                         <i className="fa-brands fa-github" onClick={() => addUrl("https://github.com/Bigoluwagentle")}></i>
                         <i className="fa-brands fa-whatsapp" onClick={() => addUrl("https://wa.me/7060503032")}></i>
