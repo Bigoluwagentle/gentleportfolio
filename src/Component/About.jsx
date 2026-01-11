@@ -1,5 +1,5 @@
 import "./About.css";
-import gentle from "../images/IMG-20260103-WA0021.jpg";
+import gentle from "../images/gentleimage.jpg";
 
 function About() {
 
