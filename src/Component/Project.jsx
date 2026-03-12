@@ -4,6 +4,8 @@ import craftman from "../images/craftman.png";
 import translatorai from "../images/naijalang.png";
 import shortly from "../images/shortly.png";
 import nutrial from "../images/nutriai.png";
+import sacredcomfort from "../images/sacredcomfort.png";
+import finsnap from "../images/finsnap.png";
 
 function Project() {
     function addUrl(url){
@@ -29,7 +31,30 @@ function Project() {
                     transition={{duration:2}}
                 >
                     <div className="project-image">
-                        <img src={craftman} alt="Craftman project img" />
+                        <img src={sacredcomfort} alt="Sacredcomfort project img" />
+                    </div>
+                    <div className="project-content">
+                        <h3>Sacred Comfort</h3>
+                        <nav className="tech-stack">
+                            <h6>React</h6>
+                            <h6>JavaScript</h6>
+                            <h6>Node.js</h6>
+                            <h6>Express.js</h6>
+                            <h6>MongoDB</h6>
+                            <h6>PostgreSQL</h6>
+                            <h6>Redis</h6>
+                        </nav>
+                        <button onClick={() => addUrl("https://sacredcomfort.vercel.app/")}>View Project</button>
+                    </div>
+                </motion.aside>
+                <motion.aside
+                    className="project-card"
+                    initial={{opacity:0, x:100}}
+                    whileInView={{opacity:1, x:0}}
+                    transition={{duration:2}}
+                >
+                    <div className="project-image">
+                        <img src={craftman} alt="craftman project img" />
                     </div>
                     <div className="project-content">
                         <h3>Craftman</h3>
@@ -41,6 +66,24 @@ function Project() {
                             <h6>Express.js</h6>
                         </nav>
                         <button onClick={() => addUrl("https://craftman-dusky.vercel.app/")}>View Project</button>
+                    </div>
+                </motion.aside>
+                <motion.aside
+                    className="project-card"
+                    initial={{opacity:0, x:-100}}
+                    whileInView={{opacity:1, x:0}}
+                    transition={{duration:2}}
+                >
+                    <div className="project-image">
+                        <img src={finsnap} alt="Craftman project img" />
+                    </div>
+                    <div className="project-content">
+                        <h3>Finsnap</h3>
+                        <nav className="tech-stack">
+                            <h6>React</h6>
+                            <h6>JavaScript</h6>
+                        </nav>
+                        <button onClick={() => addUrl("https://gentlefinsnapassessment.vercel.app/")}>View Project</button>
                     </div>
                 </motion.aside>
                 <motion.aside

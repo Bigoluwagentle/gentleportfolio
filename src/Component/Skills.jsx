@@ -40,6 +40,10 @@ function Skills() {
                 <h1>ExpressJs</h1>
                 <p>A year+ experience</p>
             </nav>
+            <nav>
+                <h1>PostgreSQL</h1>
+                <p>A year+ experience</p>
+            </nav>
         </section>
     </div>
   );
