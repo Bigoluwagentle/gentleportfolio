@@ -1,5 +1,5 @@
 import "./About.css";
-import gentle from "../images/gentleimage.jpg";
+// import gentle from "../images/gentleimage.jpg";
 
 function About() {
 
@@ -30,7 +30,7 @@ function About() {
                 </div> */}
             </nav>
             <div className="image-container">
-                <img src={gentle} alt="Gentle Code" />
+                {/* <img src={gentle} alt="Gentle Code" /> */}
             </div>
         </section>
     </div>
